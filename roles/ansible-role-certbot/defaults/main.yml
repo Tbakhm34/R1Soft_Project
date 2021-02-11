@@ -9,11 +9,11 @@ certbot_auto_renew_options: "--quiet --no-self-upgrade"
 # Parameters used when creating new Certbot certs.
 certbot_create_if_missing: false
 certbot_create_method: standalone
-certbot_admin_email: zhyldyzalova@gmail.com
+certbot_admin_email: tolgaerla@gmail.com
 certbot_certs: 
- - email: zhyldyzalova@gmail.com
+ - email: tolgaerla@gmail.com
    domains:
-     - r1soft.awstask1.com
+     - project.tolganay.com
 #     - example2.com
 # - domains:
 #     - example3.com

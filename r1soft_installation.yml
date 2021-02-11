@@ -17,21 +17,21 @@
       name: r1soft_agent_installation
 
 
-- hosts: all
+- hosts: r1soft-server
   become: yes
 
   vars:
     apache_create_vhosts: false
     apache_remove_default_vhost: true
-    certbot_admin_email: "zhyldyzalova@gmail.com"
+    certbot_admin_email: "tolgaerla@gmail.com"
     certbot_create_if_missing: true
     certbot_create_standalone_stop_services:
     - httpd
     certbot_certs:
     - domains:
-      - "r1soft.awstask1.com"
-    apache_server_name: "r1soft.awstask1.com"
-    apache_default_admin_email: "zhyldyzalova@gmail.com"
+      - "project.tolganay.com"
+    apache_server_name: "project.tolganay.com"
+    apache_default_admin_email: "tolgaerla@gmail.com"
     apache_copy_ssl_files: false
     apache_ssl_cert_file_location: "/etc/letsencrypt/live/{{ apache_server_name }}/fullchain.pem"
     apache_ssl_cert_key_location: "/etc/letsencrypt/live/{{ apache_server_name }}/privkey.pem"

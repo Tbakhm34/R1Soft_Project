@@ -1,6 +1,6 @@
 ---
-apache_server_name: "r1soft.awstask1.com"
-apache_default_admin_email: "zhyldyzalova@gmail.com"
+apache_server_name: "project.tolganay.com"
+apache_default_admin_email: "tolgaerla@gmail.com"
 apache_copy_ssl_files: true
 apache_ssl_certificate_file: 'files/vm.crt'
 apache_ssl_certificate_key_file: 'files/vm.key'

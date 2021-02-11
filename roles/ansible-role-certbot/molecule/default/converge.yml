@@ -1,6 +1,6 @@
 ---
 - name: Converge
-  hosts: all
+  hosts: r1soft-server
   become: true
 
   vars:
